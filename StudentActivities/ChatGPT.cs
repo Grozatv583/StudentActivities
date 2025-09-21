@@ -34,7 +34,7 @@ namespace StudentActivities
             label3.Visible = true;
             button1.Enabled = false;
 
-            var apiKey = "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";
+            var apiKey = "";
 
             var gpt3 = new OpenAIService(new OpenAiOptions()
             {
